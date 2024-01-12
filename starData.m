@@ -362,5 +362,9 @@ spectra = [0.3088	0.1340	0.0598	0.0892	0.1088	0.1625	0.0392
 
 spectra = spectra*(10^(-12));
 
-% Saving the variable spetra as a MAT file to be used in another file
-save starData.mat spectra
+
+% The star names
+starnames = ["HD  30584","HD  10032","HD  64191","HD   5211","HD  56030","HD  94028","SAO102986"];
+
+% Saving the variable spetra as a MAT file to be used in another file;
+save starData.mat spectra starnames

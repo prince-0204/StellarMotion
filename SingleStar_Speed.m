@@ -40,3 +40,6 @@ end
 % Printing the speed of the star
 fprintf("The speed of the star is %f km/s",speed);
 
+
+save lambda.mat lambda;
+
